@@ -1,2 +1,2 @@
-# Singularity_Encoded_Green-s_Function
+# Singularity_Encoded_Green's_Function
 to be continued
