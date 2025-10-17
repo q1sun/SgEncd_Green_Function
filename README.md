@@ -9,6 +9,6 @@ In this paper, we present a novel singularity-encoded learning approach to resol
     @article{sun2025learning,
       title={Learning Singularity-Encoded Green’s Functions with Application to Iterative Methods},
       author={Qi Sun, Shengyan Li, Bowen Zheng, Lili Ju, and Xuejun Xu},
-      journal={to be announced},
+      journal={arXiv preprint arXiv:2509.11580},
       year={2025}
     }
