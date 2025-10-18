@@ -16,6 +16,7 @@ The project is maintained by Shengyan Li. For any questions or requests, please 
 This code is organized into two main components:
 
 1. **`SgEncd_Green_<Experiment>`**
+   
    This module contains scripts for training and evaluating the singularity-encoded Green’s function.
    - Training script: 
      `train_SgEncd_Green_Poisson1D.py`
@@ -23,7 +24,7 @@ This code is organized into two main components:
      `run_DownStreamTask_SgEncd_Green_Poisson1D.m`
    
 
-2. **`Acltd_IteM_<Experiment>`**
+3. **`Acltd_IteM_<Experiment>`**
    - This module contains downstream applications using the trained Green’s function to accelerate iterative solvers:
      | Script | Purpose |
      |---------|----------|
