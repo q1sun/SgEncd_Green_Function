@@ -11,9 +11,9 @@ In this paper, we present a novel singularity-encoded learning approach to resol
 This repository contains the implementation of **singularity-encoded Green’s functions** for partial differential equation (PDE) solvers.  
 It includes both the **training framework** for learning the Green’s function and the **downstream applications** that employ the trained Green’s function to construct neural preconditioners, hybrid iterative solvers, and multigrid accelerations.
 
-The project was developed and maintained by Shengyan Li. For any questions or requests, please contact **2410285@tongji.edu.cn**.
+This code was developed and maintained by Shengyan Li. For any questions or requests, please contact **2410285@tongji.edu.cn**.
 
-This code is organized into two main components:
+It is organized into two main components:
 
 1. **`SgEncd_Green_<Experiment>`**
    
