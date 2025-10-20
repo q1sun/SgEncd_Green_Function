@@ -19,7 +19,7 @@ This code is organized into two main components:
    
    This module contains scripts for training and evaluating the singularity-encoded Green’s function.
    - Training script: 
-     `train_SgEncd_Green_<Experiment>.py`
+     `Train_SgEncd_Green_<Experiment>/train_SgEncd_Green_<Experiment>.py`
    - Testing and visualization (matlab):
      `run_DownStreamTask_SgEncd_Green_<Experiment>.m`
    
