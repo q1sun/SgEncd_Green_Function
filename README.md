@@ -42,7 +42,7 @@ For reproducibility, we summarize the key training hyper-parameters used for lea
 | Poisson Eq. (15) | 20k | (4, 40) | (400, 400, 400) | 1,600 | ($10^{-3}$, 0.1) | (0.9, 0.999) |
 | Helmholtz Eq. (33) | 50k | (4, 40) | (400, 400, 400) | 12,500 | ($10^{-3}$, 0.1) | (0.9, 0.999) |
 | Convection–Diffusion Eq. (40) | 35k | (4, 40) | (400, 400, 400) | 1,600 | ($10^{-3}$, 0.1) | (0.9, 0.999) |
-| Four-Dimensional<br>Green’s Function|---|---|---|---|----|----|
+| **Four-Dimensional Green’s Function** |               |                           |                                                   |                   |                                |                  |
 | Poisson Eq. (36) | 30k | (6, 40) | (400, 400, 400) | 12,800 | ($10^{-3}$, 0.1) | (0.9, 0.999) |
 | Elliptic Eq. (44) | 30k | (6, 40) | (400, 400, 400) | 12,800 | ($10^{-3}$, 0.1) | (0.9, 0.999) |
 
