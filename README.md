@@ -32,8 +32,7 @@ It is organized into two main components:
      | `run_Hybrid_IteM_<Experiment>.m` | Hybrid iterative method combining neural and classical solvers |
      | `run_Hybrid_Multigrid_<Experiment>.m` | Hybrid scheme integrated into multigrid framework |
 
-Training configuration overview.
-
+   
 For reproducibility, we summarize the key training hyper-parameters used for learning the singularity-encoded Green’s functions in all experiments.
 ### Training hyper-parameters for learning Green’s functions
 
