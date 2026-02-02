@@ -37,7 +37,7 @@ Training configuration overview.
 For reproducibility, we summarize the key training hyper-parameters used for learning the singularity-encoded Green’s functions in all experiments.
 ### Training hyper-parameters for learning Green’s functions
 
-| Two-Dimensional<br>Green’s Function| Training Epochs | Network (Depth, Width) | Penalty Coefficients ($\beta_{\text{Snglr}}, \beta_{\text{Bndry}}, \beta_{\text{Symtr}}$) | Mini-batch Size | Learning Rate (Init., Decay) | AdamW ($\beta_1, \beta_2$) |
+| Two-Dimensional<br>Green’s Function| Training<br>Epochs | Network<br>(Depth, Width) | Penalty Coefficients<br>($\beta_{\text{Snglr}}, \beta_{\text{Bndry}}, \beta_{\text{Symtr}}$) | Mini-batch<br>Size | Learning Rate<br>(Init., Decay) | AdamW<br>($\beta_1, \beta_2$) |
 |----------------------|-----------|------------------|-------------------------|-------------------------------------------------------------------------------------------|------------------|-------------------------------|----------------------------|
 | Poisson Eq. (15) | 20k | (4, 40) | (400, 400, 400) | 1,600 | ($10^{-3}$, 0.1) | (0.9, 0.999) |
 | Helmholtz Eq. (33) | 50k | (4, 40) | (400, 400, 400) | 12,500 | ($10^{-3}$, 0.1) | (0.9, 0.999) |
