@@ -24,13 +24,27 @@ It is organized into two main components:
      `run_DownStreamTask_SgEncd_Green_<Experiment>.m`
    
 
-3. **`Acltd_IteM_<Experiment>`**
+2. **`Acltd_IteM_<Experiment>`**
    - This module contains downstream applications using the trained Green’s function to accelerate iterative solvers:
      | Script | Purpose |
      |---------|----------|
      | `run_Neural_Preconditioner_<Experiment>.m` | Neural preconditioning of linear systems |
      | `run_Hybrid_IteM_<Experiment>.m` | Hybrid iterative method combining neural and classical solvers |
      | `run_Hybrid_Multigrid_<Experiment>.m` | Hybrid scheme integrated into multigrid framework |
+
+Training configuration overview.
+
+For reproducibility, we summarize the key training hyper-parameters used for learning the singularity-encoded Green’s functions in all experiments.
+### Training hyper-parameters for learning Green’s functions
+
+| Green’s Function Type | PDE Model | Training Epochs | Network (Depth, Width) | Penalty Coefficients ($\beta_{\text{Snglr}}, \beta_{\text{Bndry}}, \beta_{\text{Symtr}}$) | Mini-batch Size | Learning Rate (Init., Decay) | AdamW ($\beta_1, \beta_2$) |
+|----------------------|-----------|------------------|-------------------------|-------------------------------------------------------------------------------------------|------------------|-------------------------------|----------------------------|
+| 2D | Poisson Eq. (15) | 20k | (4, 40) | (400, 400, 400) | 1,600 | ($10^{-3}$, 0.1) | (0.9, 0.999) |
+| 2D | Helmholtz Eq. (33) | 50k | (4, 40) | (400, 400, 400) | 12,500 | ($10^{-3}$, 0.1) | (0.9, 0.999) |
+| 2D | Convection–Diffusion Eq. (40) | 35k | (4, 40) | (400, 400, 400) | 1,600 | ($10^{-3}$, 0.1) | (0.9, 0.999) |
+| 4D | Poisson Eq. (36) | 30k | (6, 40) | (400, 400, 400) | 12,800 | ($10^{-3}$, 0.1) | (0.9, 0.999) |
+| 4D | Elliptic Eq. (44) | 30k | (6, 40) | (400, 400, 400) | 12,800 | ($10^{-3}$, 0.1) | (0.9, 0.999) |
+
 
 
 ## Citation
