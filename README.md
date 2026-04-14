@@ -53,6 +53,8 @@ For reproducibility, we summarize the key training hyper-parameters used for lea
     @article{sun2025learning,
       title={Learning Singularity-Encoded Green’s Functions with Application to Iterative Methods},
       author={Qi Sun, Shengyan Li, Bowen Zheng, Lili Ju, and Xuejun Xu},
-      journal={arXiv preprint arXiv:2509.11580},
-      year={2025}
+      journal={Journal of Computational Physics},
+      volume = {559},
+      pages = {114894},
+      year = {2026}
     }
